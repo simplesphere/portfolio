@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+  	<% include partials/head.ejs %>
   </head>
   <body>
+
+
     <h1><%= title %></h1>
     <p>Welcome to <%= title %></p>
   </body>
+
+	<!-- Footer -->
+  <% include partials/footer.ejs %>
+
+  <!-- Javascript Files -->
+  <% include partials/jsdefaults.ejs %>
 </html>
